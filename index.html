@@ -1,0 +1,28 @@
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>最新上车地址</title> 
+<style>
+#content{text-align:center;margin-top:25%;}
+span,p{font-size:18px;}
+</style>
+</head> 
+<body> 
+<script type="text/javascript"> 
+var t=10;//设定跳转的时间 
+setInterval("refer()",3000); //启动1秒定时 
+function refer(){ 
+if(t==0){ 
+location="http://www.sexhome.cc"; //#设定跳转的链接地址 
+} 
+document.getElementById('show').innerHTML=""+t+"秒后跳转"; // 显示倒计时 
+t--; // 计数器递减 
+} 
+</script>
+<div id="content">
+<h1>最近上车地址：SexHome.cc</h1>
+<span id="show"></span>
+<p>如果你的浏览器没反应，<a href="http://www.sexhome.cc/">点击这里手动跳转</a></p>
+</div>
+</body> 
+</html>
